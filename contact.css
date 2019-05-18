@@ -1,0 +1,286 @@
+body {
+    background-image: url("assets/white-waves.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    width:90%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 98px;
+    background: #fff;
+    margin-bottom; 50px;
+    box-shadow: 0px 2px 0px darkslategray;
+}
+
+.name-container {
+    width: 300px;
+    float: left;
+}
+
+.name {
+    color: #fff;
+    padding: 30px;
+    margin: 0;
+    background-color: darkslategray;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 45px;
+}
+
+nav a{
+    font-family: helvetica;
+    font-weight: bold;
+    color: darkslategrey;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.box-1{
+    width:960px;
+    height: 560px;
+    color: darkslategray;
+    background-color: #fff;
+    border: 2px solid #eee;
+    clear: both;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.contact{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid darkslategray;
+    margin: 30px;
+    padding: 0;
+}
+
+form{
+    margin: 30px;
+}
+
+form label{
+    display:block;
+}
+
+form input[type="text"]{
+    padding: 10px;
+    width: 869px;
+}
+
+form input[type="submit"]{
+    background-color: darkslategray;
+    color: #fff;
+    padding: 10px 15px;
+    border:none;
+}
+
+form textarea{
+    width: 885px;
+    height: 180px;
+}
+
+.form-group{
+    padding-bottom: 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color:darkslategray;
+    border-top: solid 5px #15a86b;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    clear: both;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 90%;
+    }
+    .box-1 {
+        float: left;
+        width: 70%;
+    }
+    .contact {
+        width: 100%;
+    }
+    form{
+        margin: 30px;
+    }
+    form label{
+        display:block;
+    }
+    form input[type="text"]{
+        padding: 10px;
+        width: 95%;
+    }
+    form input[type="submit"]{
+        background-color: darkslategray;
+        color: #fff;
+        padding: 10px 15px;
+        border:none;
+    }
+    form textarea{
+        width: 98%;
+        height: 180px;
+    }
+    .form-group{
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 68px;
+    }
+    .name {
+        padding: 15px;
+        padding-left: 30px;
+    }
+    nav li {
+        margin-left: 25px;
+        padding-top: 30px;
+    }
+    .container {
+        width: 90%;
+    }
+    .box-1 {
+        float: left;
+        width: 99%;
+    }
+    .contact {
+        width: 100%;
+    }
+    form{
+        margin: 30px;
+    }
+    form label{
+        display:block;
+    }
+    form input[type="text"]{
+        padding: 10px;
+        width: 95%;
+    }
+    form input[type="submit"]{
+        background-color: darkslategray;
+        color: #fff;
+        padding: 10px 15px;
+        border:none;
+    }
+    form textarea{
+        width: 98%;
+        height: 180px;
+    }
+    .form-group{
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        background-color: #fff;
+        height: 140px;
+    }
+    .name {
+        padding: 17px;
+    }
+    .name-container {
+        text-align: center;
+        width: 100%;
+    }
+    nav {
+        text-align: center;
+    }
+    nav ul {
+        padding-right: 140px;
+    }
+    nav li {
+        display: inline-block;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .container {
+        width: 90%;
+    }
+    .box-1 {
+        float: left;
+        width: 99%;
+    }
+    .contact {
+        width: 100%;
+    }
+    form{
+        margin: 30px;
+    }
+    form label{
+        display:block;
+    }
+    form input[type="text"]{
+        padding: 10px;
+        width: 95%;
+    }
+    form input[type="submit"]{
+        background-color: darkslategray;
+        color: #fff;
+        padding: 10px 15px;
+        border:none;
+    }
+    form textarea{
+        width: 98%;
+        height: 180px;
+    }
+    .form-group{
+        padding-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3
